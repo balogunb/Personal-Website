@@ -12,7 +12,7 @@
   }
 
 
-/**
+
   h1{
     color: #66BFBF;
 
@@ -23,17 +23,22 @@
 
   }
 
-**/
+
 
 
 /** class selector  **/
-.header1{
-    color: #66BFBF;
+.header1:hover{
+    color: green;
 }
 
 
-.header2{
+.header2:hover{
     color: green;
+}
+
+/* should be used just for images */
+.circular{
+  border-radius: 100%;
 }
 
 
